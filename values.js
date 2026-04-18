@@ -1,11 +1,11 @@
 // values.js
 
 // Основные данные 
-var fio               = "Чумаченко Максим Константинович";
-var fio_en            = "Chumachenko Maksym Konstantinovich";
-var birth             = "20.06.2007"; //дата рождения
-var date_give         = "29.07.2025"; //Дата видачи
-var date_out          = "30.07.2035"; // действителен до
+var fio               = "Кульша Артьом Андрійович";
+var fio_en            = "22.02.2008";
+var birth             = "22.02.2008"; //дата рождения
+var date_give         = "03.11.2025"; //Дата видачи
+var date_out          = "03.11.2035"; // действителен до
 var organ             = "0512"; //орган что выдал документ
 var rnokpp            = "3582200550"; //ИНН
 var uznr              = "19980128-07937"; //Номер записи
@@ -16,16 +16,16 @@ var registeredOn      = "20.09.1999"; //дата регистрации
 // Прописка
 var legalAdress       = "Харківська область"; //Место проживание
 var live              = "Харківська область"; //Место рождение 
-var bank_adress       = "Харківська область,Куп`янський район с.Ккіндрашівка вул. Паберемна, буд. 12, кв. 5"; //Место жительства указано в банке
+var bank_adress       = "Харківська область,Куп`янський район с.Кіндрашівка вул. Паберемна, буд. 12, кв. 5"; //Место жительства указано в банке
 
-var sex               = "Ч";
-var sex_en            = "M";
+var sex               = "Ж";
+var sex_en            = "W";
 
 // Данные для Прав
 var rights_categories = "A, B"; //Категории
 var prava_number      = "AUX723027"; // номер прав
-var prava_date_give   = "01.04.2025"; //Дата выдачи Прав
-var prava_date_out    = "01.04.2035"; //Действителен ДО
+var prava_date_give   = "01.04.2022"; //Дата выдачи Прав
+var prava_date_out    = "01.04.2032"; //Действителен ДО
 var pravaOrgan        = "0512"; //орган который выдал
 
 
@@ -53,10 +53,9 @@ var student_date_out  = "30.06.2025";
 
 // Включение/выключение документов
 var isRightsEnabled   = true;
-var isZagranEnabled   = false;
-var isDiplomaEnabled  = false;
-var isStudyEnabled    = false;
-var isRojdenie        = false;
+var isZagranEnabled   = true;
+var isDiplomaEnabled  = true;
+var isStudyEnabled    = true;
 // Добавь остальные переменные по аналогии
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
@@ -68,6 +67,7 @@ var photo_zagran   = "1.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
 
 
